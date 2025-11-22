@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Suptech Santé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Suptech Santé Logo">
+            </a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="programs.html">Formations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html" class="btn-primary nav-cta">Candidater</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header"
+        style="background: linear-gradient(rgba(26, 43, 76, 0.9), rgba(26, 43, 76, 0.8)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') center/cover; padding: 120px 0 60px; color: white; text-align: center;">
+        <div class="container">
+            <h1 class="fade-in-up">Contactez-nous</h1>
+            <p class="fade-in-up delay-1" style="max-width: 600px; margin: 0 auto; opacity: 0.9;">Une question ? Une
+                demande d'inscription ? Notre équipe est à votre écoute.</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="features-grid" style="grid-template-columns: 1fr 1fr; gap: 60px;">
+                <!-- Contact Info -->
+                <div>
+                    <span class="section-subtitle">Nos Coordonnées</span>
+                    <h2 style="margin-bottom: 30px;">Restons en contact</h2>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; color: var(--secondary); margin-bottom: 10px;">Campus Mohammedia
+                        </h3>
+                        <p style="color: var(--text-light);">Cité de l'Innovation et de la Recherche, Mohammedia</p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; color: var(--secondary); margin-bottom: 10px;">Campus Essaouira
+                        </h3>
+                        <p style="color: var(--text-light);">Route d'Agadir, Essaouira</p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h3 style="font-size: 1.2rem; color: var(--secondary); margin-bottom: 10px;">Email & Téléphone
+                        </h3>
+                        <p style="color: var(--text-light);">contact@suptech-sante.ma</p>
+                        <p style="color: var(--text-light);">+212 5 00 00 00 00</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div
+                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: var(--shadow-lg);">
+                    <h3 style="margin-bottom: 20px; color: var(--secondary);">Envoyez-nous un message</h3>
+                    <form>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Nom complet</label>
+                            <input type="text"
+                                style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-family: inherit;"
+                                placeholder="Votre nom">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Email</label>
+                            <input type="email"
+                                style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-family: inherit;"
+                                placeholder="votre@email.com">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Sujet</label>
+                            <select
+                                style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-family: inherit;">
+                                <option>Renseignements Généraux</option>
+                                <option>Admissions</option>
+                                <option>Partenariats</option>
+                            </select>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                            <textarea
+                                style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-family: inherit; min-height: 120px;"
+                                placeholder="Votre message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary"
+                            style="width: 100%; border: none; cursor: pointer;">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.png" alt="Suptech Santé" class="footer-logo">
+                    <p>École Supérieure de Génie Biomédical et des Techniques de Santé.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="programs.html">Formations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-list">
+                        <li>contact@suptech-sante.ma</li>
+                        <li>Mohammedia / Essaouira</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Suptech Santé. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
